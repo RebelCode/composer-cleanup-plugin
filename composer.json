@@ -1,9 +1,13 @@
 {
-    "name": "barryvdh/composer-cleanup-plugin",
+    "name": "rebelcode/composer-cleanup-plugin",
     "type": "composer-plugin",
     "description": "A composer cleanup plugin, to remove tests and documentation to save space",
     "license": "MIT",
     "authors": [
+        {
+            "name": "RebelCode",
+            "email": "dev@rebelcode.com"
+        },
         {
             "name": "Barry vd. Heuvel",
             "email": "barryvdh@gmail.com"
