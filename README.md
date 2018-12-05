@@ -1,6 +1,8 @@
 Composer Cleanup Plugin
 =======================
 
+[![Latest Stable Version](https://poser.pugx.org/rebelcode/composer-cleanup-plugin/version)](https://packagist.org/packages/rebelcode/rcmod-eddbk-rest-api)
+
 Remove tests & documentation from the vendor dir. Based on [laravel-vendor-cleanup](https://github.com/barryvdh/laravel-vendor-cleanup) but implemented as a Composer Plugin instead of a Laravel command.
 
 Usually disk size shouldn't be a problem, but when you have to use FTP to deploy or have very limited disk space,
