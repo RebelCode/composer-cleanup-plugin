@@ -7,9 +7,9 @@ class CleanupRules
     public static function getRules()
     {
         // Default patterns for common files
-        $docs = 'README* CHANGELOG* FAQ* CONTRIBUTING* HISTORY* UPGRADING* UPGRADE* package* demo example examples doc docs readme*';
-        $tests = '.travis.yml .scrutinizer.yml phpunit.xml* phpunit.php test tests Tests travis .coveralls.yml couscous.yml';
-        $proj = 'nbproject .idea';
+        $docs = 'README* CHANGELOG* FAQ* CONTRIBUTING* HISTORY* UPGRADING* UPGRADE* package* demo example examples doc/* docs/* doc docs readme*';
+        $tests = '.travis.yml .scrutinizer.yml phpunit.xml* phpunit.php test/* tests/* test tests Test/* Tests/* Test Tests travis .coveralls.yml couscous.yml';
+        $proj = 'nbproject .idea .phan phpmd.xml .editorconfig .php_cs .gitignore .codeclimate.yml';
 
         return [
             'anahkiasen/former'                     => [$docs, $tests],
