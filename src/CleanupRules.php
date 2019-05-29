@@ -130,7 +130,7 @@ class CleanupRules
             'symfony/var-dumper'                    => [$docs, $tests],
             'tijsverkoyen/css-to-inline-styles'     => [$docs, $tests],
             'twig/extensions'                       => [$docs, $tests],
-            'twig/twig'                             => [$docs, $tests],
+            'twig/twig'                             => [$docs, $tests, 'ext/*'],
             'venturecraft/revisionable'             => [$docs, $tests],
             'vlucas/phpdotenv'                      => [$docs, $tests],
             'willdurand/geocoder'                   => [$docs, $tests],
